@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.title-footer {
+	font-weight: 500;
+}
+.container-footer {
+	margin-top :50px;
+	padding:0px !important;
+}

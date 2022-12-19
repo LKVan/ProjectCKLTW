@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.header {
+	position: relative;
+	margin: 2px 0px;
+}
+
+.phone {
+	margin-left: 20px;
+}
+
+.ti-location-pin {
+	margin: 1px 0px;
+	font-size: 18px;
+}
+
+.margin-right-60 {
+	margin-right: 60px;
+}
+
+.mr-right-4 {
+	margin-right: 4px;
+}
+
+.ti-instagram {
+	color: white !important;
+	background-color: #c32c73;
+}
+
+.ti-twitter-alt {
+	color: white !important;
+	background-color: #1da1f3;
+}
+
+.icon:hover {
+	opacity: 0.8 !important;
+}
+
+.icon {
+	margin: 2px 4px;
+	border-radius: 4px;
+	padding: 4px;
+}
+
+.ti-facebook {
+	color: white !important;
+	background-color: #0076fc !important;
+}
+
+.ti-mobile {
+	color: blue;
+}
+
+.d-flex {
+	position: absolute;
+	right: 0;
+}
+
+.ti-shopping-cart {
+	padding: 20px;
+	color: white;
+}
+
+.login {
+	position: absolute;
+	display: inline-flex;
+	top: 0;
+	right: -50px;
+}
+
+.login .login-item {
+	color: white;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.login .login-item:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+.mr-top-bottom-auto {
+	margin: auto 0px !important;
+}
+
+#header-logo {
+	background-color: blue;
+	position: relative;
+}
+
+#logo {
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 20px;
+	justify-content: center;
+	padding-right: 30px;
+}
+
+.name-shop {
+	color: yellow;
+	font-family: Candara;
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.form-inline {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.navbar-toggler {
+	color: rgba(255, 255, 255, .5) !important;
+	border-color: rgba(255, 255, 255, .1) !important;
+}
+
+.navbar-header .nav-item .nav-link {
+	color: white !important;
+}
+
+.navbar-header .nav-item .nav-link:hover {
+	opacity: 0.8;
+}
+
+.nav-item {
+	margin: 0px 20px;
+}
+
+.ti-search {
+	padding: 10px !important;
+}
+
+.icon_white {
+	margin: 0px 2px;
+	border-radius: 4px;
+	padding: 4px;
+	color: white !important;
+}
+
+.cart {
+	position: absolute;
+	right: 90px;
+	bottom: 20px;
+	padding: 10px;
+}
+
+
+.btn-cart:hover {
+	cursor: pointer;
+	opacity: 0.8 !important;
+}
+
+.search {
+	max-width: 180px !important;
+}
+
+.badge {
+	position: absolute;
+	top: -2px;
+	right: 3px;
+	color:white !important;
+}
+
+@media screen and (max-width:576px) {
+	.media-reponsive {
+		max-height: 55px;
+		max-width: 200px;
+	}
+	.header-repinsive {
+		margin-left: 0px !important;
+		justify-content: center !important;
+	}
+	.reponse-logo {
+		justify-content: center !important;
+	}
+	div .reponse-cart {
+		right: 40px !important;
+	}
+	.reponse-login {
+		top: 10px;
+		right: -8px !important;
+		font-size: 12px;
+	}
+	.reponse-out {
+		top: 10px;
+		margin-right: 5px !important;
+		font-size: 12px;
+	}
+	.search {
+		max-width: 150px !important;
+	}
+	.login .item {
+		margin-right: -10px !important;
+	}
+	.slider{
+		display: none;
+	}
+
+	/*	Phần body*/
+}
+
+@media screen and (max-width:1200px) {
+	div .reponse-cart {
+		right: 12px;
+	}
+}
